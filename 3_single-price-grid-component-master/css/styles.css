@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    /* font: none; */
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container{
+    padding: 70px 32px;
+    
+}
+
+.bloque{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.2);
+
+}
+
+.card{
+    /* margin: 70px 32px; */
+    padding: 27px 22px;
+    background-color: #fff;
+}
+
+.header{
+    border-radius: 10px 10px 0 0;
+}
+
+.header__title{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.3em;
+}
+
+.header__subtitle{
+    color:hsl(71, 73%, 54%);
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.header__parrafo{
+    color: hsl(218, 22%, 67%);
+    font-size: .9em;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.main__card{
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+}
+
+.main__title{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.main__precio{
+    margin: 15px 0;
+    font-size: 2.1em;
+    font-weight: bolder;
+}
+
+span{
+    /* display: inline-block; */
+    padding: 4px 0;
+    font-size: .3em;
+    font-weight: 100;
+}
+
+.main__boton{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #fff;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.2);
+}
+
+.card_c{
+    background-color: hsl(179, 60%, 47%);
+    border-radius: 0 0 10px 10px;
+}
+
+.main__parrafo{
+    font-weight: 100;
+    font-size: 0.8em;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+@media (min-width : 800px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .header{
+        width: 630px;
+    }
+    .main{
+        display: flex;
+    }
+
+    .main__card{
+        width: 315px;
+    }
+    .card_b{
+        border-radius: 0 0 0 10px;
+    }
+
+    .card_c{
+        border-radius: 0 0 10px 0;
+    }
+}
