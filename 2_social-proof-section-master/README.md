@@ -1,3 +1,5 @@
+[RESULTADO](https://newbie-social.vercel.app/) Resultado del reto.
+
 # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
